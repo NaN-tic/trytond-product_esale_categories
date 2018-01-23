@@ -62,8 +62,10 @@ class Category:
 
     @fields.depends('name', 'slug')
     def on_change_name(self):
-        if hasattr(self, 'on_change_name'):
+        try:
             super(Category, self).on_change_name()
+        except:
+            pass
 
         if self.name and not self.slug:
             self.slug = slugify(self.name)
