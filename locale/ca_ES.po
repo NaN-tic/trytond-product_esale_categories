@@ -1,0 +1,72 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.category,default_sort_by:"
+msgid "Default Product Listing Sort (Sort By)"
+msgstr "Ordenació productes"
+
+msgctxt "field:product.category,description:"
+msgid "Description"
+msgstr "Descripció"
+
+msgctxt "field:product.category,esale_active:"
+msgid "Active eSale"
+msgstr "Actiu eSale"
+
+msgctxt "field:product.category,full_slug:"
+msgid "Full Slug"
+msgstr "Slug complet"
+
+msgctxt "field:product.category,include_in_menu:"
+msgid "Included in Menu"
+msgstr "Inclós en el menú"
+
+msgctxt "field:product.category,metadescription:"
+msgid "MetaDescription"
+msgstr "MetaDescription"
+
+msgctxt "field:product.category,metakeyword:"
+msgid "MetaKeyword"
+msgstr "MetaKeyword"
+
+msgctxt "field:product.category,metatitle:"
+msgid "MetaTitle"
+msgstr "MetaTitle"
+
+msgctxt "field:product.category,slug:"
+msgid "Slug"
+msgstr "Slug"
+
+#, fuzzy
+msgctxt "selection:product.category,default_sort_by:"
+msgid ""
+msgstr "Arcs d'acer amb anses key hole i pals"
+
+msgctxt "selection:product.category,default_sort_by:"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "selection:product.category,default_sort_by:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "selection:product.category,default_sort_by:"
+msgid "Position"
+msgstr "Possició"
+
+msgctxt "selection:product.category,default_sort_by:"
+msgid "Price"
+msgstr "Preu"
+
+msgctxt "view:product.category:"
+msgid "General"
+msgstr "General"
+
+msgctxt "view:product.category:"
+msgid "SEO"
+msgstr "SEO"
+
+msgctxt "view:product.category:"
+msgid "eSale"
+msgstr "eSale"

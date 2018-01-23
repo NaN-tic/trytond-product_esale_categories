@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+  <xpath
+      expr="/form/notebook/page[@id='childs']"
+      position="before">
+        <page string="eSale" id="esale" col="4">
+            <label name="esale_active"/>
+            <field name="esale_active"/>
+            <notebook colspan="4">
+                <page string="General" id="esale-general">
+                    <label name="default_sort_by"/>
+                    <field name="default_sort_by"/>
+                    <label name="slug"/>
+                    <field name="slug"/>
+                    <label name="full_slug"/>
+                    <field name="full_slug"/>
+                    <label name="include_in_menu"/>
+                    <field name="include_in_menu"/>
+                </page>
+                <page string="SEO" id="esale-seo" col="2">
+                    <label name="metadescription"/>
+                    <field name="metadescription"/>
+                    <label name="metakeyword"/>
+                    <field name="metakeyword"/>
+                    <label name="metatitle"/>
+                    <field name="metatitle"/>
+                    <separator name="description" colspan="2"/>
+                    <field name="description" colspan="2"/>
+                </page>
+            </notebook>
+        </page>
+  </xpath>
+</data>

@@ -1,0 +1,71 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.category,default_sort_by:"
+msgid "Default Product Listing Sort (Sort By)"
+msgstr "Ordenación productos"
+
+msgctxt "field:product.category,description:"
+msgid "Description"
+msgstr "Descripción"
+
+msgctxt "field:product.category,esale_active:"
+msgid "Active eSale"
+msgstr "Activo eSale"
+
+msgctxt "field:product.category,full_slug:"
+msgid "Full Slug"
+msgstr "Slug completo"
+
+msgctxt "field:product.category,include_in_menu:"
+msgid "Included in Menu"
+msgstr "Incluido en el menú"
+
+msgctxt "field:product.category,metadescription:"
+msgid "MetaDescription"
+msgstr "MetaDescription"
+
+msgctxt "field:product.category,metakeyword:"
+msgid "MetaKeyword"
+msgstr "Metakeyword"
+
+msgctxt "field:product.category,metatitle:"
+msgid "MetaTitle"
+msgstr "MetaTitle"
+
+msgctxt "field:product.category,slug:"
+msgid "Slug"
+msgstr "Slug"
+
+msgctxt "selection:product.category,default_sort_by:"
+msgid ""
+msgstr ""
+
+msgctxt "selection:product.category,default_sort_by:"
+msgid "Date"
+msgstr "Fecha"
+
+msgctxt "selection:product.category,default_sort_by:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "selection:product.category,default_sort_by:"
+msgid "Position"
+msgstr "Posición"
+
+msgctxt "selection:product.category,default_sort_by:"
+msgid "Price"
+msgstr "Precio"
+
+msgctxt "view:product.category:"
+msgid "General"
+msgstr "General"
+
+msgctxt "view:product.category:"
+msgid "SEO"
+msgstr "SEO"
+
+msgctxt "view:product.category:"
+msgid "eSale"
+msgstr "eSale"
