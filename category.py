@@ -8,8 +8,7 @@ from trytond.modules.product_esale.tools import slugify
 __all__ = ['Category']
 
 
-class Category:
-    __metaclass__ = PoolMeta
+class Category(metaclass=PoolMeta):
     __name__ = "product.category"
     esale_active = fields.Boolean('Active eSale')
     default_sort_by = fields.Selection([
