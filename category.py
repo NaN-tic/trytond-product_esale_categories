@@ -20,36 +20,36 @@ class Category(metaclass=PoolMeta):
             ], 'Default Product Listing Sort (Sort By)',
         states={
             'invisible': ~Eval('esale_active', True),
-        }, depends=['esale_active'])
+        })
     slug = fields.Char('Slug', size=None, translate=True,
         states={
             'invisible': ~Eval('esale_active', True),
             'required': Eval('esale_active', True),
-        }, depends=['esale_active'])
+        })
     full_slug = fields.Function(fields.Char('Full Slug',
         states={
             'invisible': ~Eval('esale_active', True),
-        }, depends=['esale_active']), 'get_full_slug')
+        }), 'get_full_slug')
     description = fields.Text('Description', translate=True,
         states={
             'invisible': ~Eval('esale_active', True),
-        }, depends=['esale_active'])
+        })
     metadescription = fields.Char('MetaDescription', size=155, translate=True,
         states={
             'invisible': ~Eval('esale_active', True),
-        }, depends=['esale_active'])
+        })
     metakeyword = fields.Char('MetaKeyword', size=155, translate=True,
         states={
             'invisible': ~Eval('esale_active', True),
-        }, depends=['esale_active'])
+        })
     metatitle = fields.Char('MetaTitle', size=155, translate=True,
         states={
             'invisible': ~Eval('esale_active', True),
-        }, depends=['esale_active'])
+        })
     include_in_menu = fields.Boolean('Included in Menu',
         states={
             'invisible': ~Eval('esale_active', True),
-        }, depends=['esale_active'])
+        })
 
     @staticmethod
     def default_default_sort_by():
