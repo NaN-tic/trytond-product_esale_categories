@@ -3,9 +3,7 @@
 from trytond.pool import PoolMeta
 from trytond.model import fields
 from trytond.pyson import Eval
-from trytond.modules.product_esale.tools import slugify
-
-__all__ = ['Category']
+from trytond.tools import slugify
 
 
 class Category(metaclass=PoolMeta):
