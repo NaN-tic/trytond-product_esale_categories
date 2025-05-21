@@ -3,7 +3,7 @@
 from trytond.pool import PoolMeta
 from trytond.model import fields
 from trytond.pyson import Eval
-from trytond.modules.product_esale.product import _slugify
+from trytond.modules.voyager import slugify
 
 
 class Category(metaclass=PoolMeta):
@@ -65,7 +65,7 @@ class Category(metaclass=PoolMeta):
             pass
 
         if self.name and not self.slug:
-            self.slug = _slugify(self.name)
+            self.slug = slugify(self.name)
 
     def get_full_slug(self, name):
         if self.esale_active and self.parent:
